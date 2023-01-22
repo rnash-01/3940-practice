@@ -4,8 +4,6 @@ import random
 def compute_capacities(G):
     (V,E) = G
 
-    # First, calculate the general flow
-
     capacities = {}
     for e in E:
         capacities[e] = random.randint(1, 10)
