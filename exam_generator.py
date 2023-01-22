@@ -17,8 +17,8 @@ def init_tex_file():
     d/.style = {}}
 
 
-\\title{Auto Generated Example Test}
-\\author{COMP3940}
+\\title{COMP3940 Auto Generated Example Test}
+\\author{https://github.com/rnash-01/3940-practice}
 \\date{January 2023}
 
 
@@ -41,16 +41,16 @@ def network_flow(f):
     questions = [max_flow_question]     # append your function names from maxflow.py here
     
     for question in questions:
-        questions(f)
+        question(f)
 
 def matchings(f):
     f.write("\\section{Matchings}\n")
 
     # ~~~ PRACTICE QUESTIONS FOR MATCHINGS GO HERE ~~~
-    questions = [max_flow_question]     # append your function names from matchings.py here
+    questions = []     # append your function names from matchings.py here
     
     for question in questions:
-        questions(f)
+        question(f)
     
     f.write("\n")
     
@@ -58,10 +58,10 @@ def complexity(f):
     f.write("\\section{Complexity Theory}\n")
 
     # ~~~ PRACTICE QUESTIONS FOR COMPLEXITY THEORY GO HERE ~~~
-    questions = [max_flow_question]     # append your function names from complexity.py here
+    questions = []     # append your function names from complexity.py here
     
     for question in questions:
-        questions(f)
+        question(f)
     
 # MAIN SCRIPT
 f = init_tex_file()
