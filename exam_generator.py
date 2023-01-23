@@ -48,7 +48,7 @@ def matchings(f):
     f.write("\\section{Matchings}\n")
 
     # ~~~ PRACTICE QUESTIONS FOR MATCHINGS GO HERE ~~~
-    questions = []     # append your function names from matchings.py here
+    questions = [matching_examples]     # append your function names from matchings.py here
     
     for question in questions:
         question(f)
