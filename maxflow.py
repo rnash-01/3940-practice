@@ -19,7 +19,7 @@ def max_flow_question(f):
     capacities = compute_capacities(G)
 
     # Sort out latex (ugly, sorry)
-    f.write("Find the maximum flow in the graph below\n")
+    f.write("Find the maximum flow and minimum cut in the graph below\n")
     f.write(
 """\\begin{center}
   \\begin{tikzpicture}[scale=0.8, >=stealth]
