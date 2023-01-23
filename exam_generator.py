@@ -41,7 +41,8 @@ def network_flow(f):
     # ~~~ PRACTICE QUESTIONS FOR NETWORK FLOW GO HERE ~~~
     questions = [max_flow_question]     # append your function names from maxflow.py here
     
-    for question in questions:
+    for i, question in enumerate(questions):
+        f.write("\\subsection*{Question 1." + str(i+1)+"}")
         question(f)
 
 def matchings(f):
@@ -50,7 +51,8 @@ def matchings(f):
     # ~~~ PRACTICE QUESTIONS FOR MATCHINGS GO HERE ~~~
     questions = [matching_examples]     # append your function names from matchings.py here
     
-    for question in questions:
+    for i, question in enumerate(questions):
+        f.write("\\subsection*{Question 2." + str(i+1)+"}")
         question(f)
     
     f.write("\n")
@@ -61,7 +63,8 @@ def complexity(f):
     # ~~~ PRACTICE QUESTIONS FOR COMPLEXITY THEORY GO HERE ~~~
     questions = [complexity_closure]     # append your function names from complexity.py here
     
-    for question in questions:
+    for i, question in enumerate(questions):
+        f.write("\\subsection*{Question 3." + str(i+1)+"}")
         question(f)
     
 # MAIN SCRIPT
