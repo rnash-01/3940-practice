@@ -5,7 +5,7 @@ from complexity import *
 
 # Tex file
 def init_tex_file():
-    f = open("example_test.tex", "w")
+    f = open("exam.tex", "w")
     f.write(
 """\\documentclass{article}
 \\usepackage[utf8]{inputenc}
