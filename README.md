@@ -1,7 +1,7 @@
 # COMP3940 Exam Practice Generator
 
 ## Usage
-You can just run `python exam_generator.py`. The output will be a file named `example_test.tex` - you can copy-paste the contents into Overleaf or some other tex editor (Overleaf is a safe bet for all the weird graph drawings but totally up to you).
+You can just run `python exam_generator.py`. The output will be a file named `exam.tex` - you can copy-paste the contents into Overleaf or some other tex editor (Overleaf is a safe bet for all the weird graph drawings but totally up to you).
 
 ## Contribution
 ### Question styles
