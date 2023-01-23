@@ -10,7 +10,8 @@ def init_tex_file():
 """\\documentclass{article}
 \\usepackage[utf8]{inputenc}
 \\usepackage{tikz}
-
+\\usepackage{amsmath}
+\\usepackage{amssymb}
 \\tikzset{v/.style = {circle, thick, minimum size=2.0mm, inner sep=0pt, draw},
     a/.style = {        thick, minimum size=2.0mm, inner sep=0pt, draw},
     b/.style = {circle, fill,  minimum size=1.8mm, inner sep=0pt, draw},
