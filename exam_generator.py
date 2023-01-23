@@ -58,7 +58,7 @@ def complexity(f):
     f.write("\\section{Complexity Theory}\n")
 
     # ~~~ PRACTICE QUESTIONS FOR COMPLEXITY THEORY GO HERE ~~~
-    questions = []     # append your function names from complexity.py here
+    questions = [complexity_closure]     # append your function names from complexity.py here
     
     for question in questions:
         question(f)
